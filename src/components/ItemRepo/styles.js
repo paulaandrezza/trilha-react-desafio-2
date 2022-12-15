@@ -14,9 +14,19 @@ export const ItemContainer = styled.div`
         margin-bottom:20px;
     }
 
-    a.remover {
-        color: #FF0000;
+    button.remover {
+        color: #FFFFFF;
         margin-top:20px;
+        background-color: #ff0000;
+        border-radius: 10px;
+        padding: 5px 10px;
+        border: none;
+        transition: 0.2s;
+
+        &:hover {
+            background-color: #ff000060;
+            cursor: pointer;
+        }
     }
 
     hr {
